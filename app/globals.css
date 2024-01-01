@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: rgb(49, 47, 47);
+  }
+  html{
+    scroll-behavior: smooth;
+    scroll-padding: 
+    var(--scroll-padding, 5rem);
+    scrollbar-color: rgb(126, 20, 20);
+  }
+  
+  .hero-img{
+  
+  }
+  .whatsapp {
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    width: 50px;
+  }
+  .scroll{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 50px;
+  }
