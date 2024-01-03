@@ -2,67 +2,111 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+   
         <div id='connect' class=" contact flex justify-center bg-gray-900 ">
-
-<div class="flex flex-col justify-center  my-10 w-[90%]  max-w-7xl  ">
-    <div class="flex flex-col justify-center items-center md:items-start  my-6">
-
-        <div class="text-xl md:text-3xl text-blue-900 font-bold uppercase">Contact Us</div>
-        <div class="text-sm md:text-xl text-blue-900 font-medium">We are here to help.</div>
-
-    </div>
-    <div class="flex   flex-col justify-center items-center lg:flex-row ">
-        <div
-            class="bg-gray-200 md:w-1/3 shadow-lg flex flex-col justify-center rounded-lg items-center py-4 h-56 md:w-[80%] lg:w-fit  my-6 mx-2">
-            <div class="-mt-10 ">
-                <ion-icon name="call-outline"
-                    class="text-3xl md:text-5xl rounded-full p-4 bg-white text-white bg-blue-900 -mt-8">
-                </ion-icon>
-            </div>
-            <div class="flex flex-col items-start px-8 text-blue-900">
-                <div class="font-semibold text-2xl m-1">Call Us</div>
-                <p class="  text-lg  m-1">Call us to solve your queries at any time.</p>
-                <p class="  text-lg  m-1">+1 255-8997-469</p>
-
-            </div>
-        </div>
-        <div
-            class="bg-gray-200 md:w-1/3 shadow-lg flex flex-col justify-center rounded-lg items-center py-4 h-56 md:w-[80%] lg:w-fit my-6 mx-2">
-            <div class="-mt-10 ">
-                <ion-icon name="chatbubble-ellipses-outline"
-                    class="text-3xl md:text-5xl rounded-full p-4 bg-white text-white bg-blue-900 -mt-8">
-                </ion-icon>
-            </div>
-            <div class="flex flex-col items-start px-8 text-blue-900">
-                <div class="font-semibold text-2xl m-1">Whatsapp</div>
-                <p class="  text-lg  m-1">We are available for customer support 24X7.</p>
-                <p
-                    class="  text-sm m-1 px-6 bg-blue-900 py-2 rounded hover:bg-blue-700 p-5 text-white font-medium">
-                    <a href="#">Chat Now</a>
-                </p>
-            </div>
-        </div>
-        <div
-            class="bg-gray-200 md:w-1/3 shadow-lg flex flex-col justify-center rounded-lg items-center py-4 h-56 md:w-[80%] lg:w-fit my-6 mx-2">
-            <div class="-mt-10 ">
-                <ion-icon name="mail-outline"
-                    class="text-3xl md:text-5xl rounded-full p-4 bg-white text-white bg-blue-900 -mt-8">
-                </ion-icon>
-            </div>
-            <div class="flex flex-col items-start px-8 text-blue-900">
-                <div class="font-semibold text-2xl m-1">Gmail</div>
-                <p class="  text-lg  m-1">We are available for chat to solve your problems.</p>
-                <p
-                    class="  text-sm m-1 px-6 bg-blue-900 py-2 rounded hover:bg-blue-700 p-5 text-white font-medium">
-                    <a href="#">Get Started</a>
-                </p>
-            </div>
+<div class="bg-gray-900 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class=" ml-20">
+        <h1 class="mt-2 text-3xl font-black text-black md:text-5xl dark:text-gray-500">
+                            Connect
+                        </h1>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Our Store
+            </p>
+        
         </div>
 
+        <div class="mt-10">
+            <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <dt class="text-lg leading-6 font-medium text-black">
+                            Address
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-500">
+                            Uttar Pradesh<br/>
+                            India
+                        </dd>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                   
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <dt class="text-lg leading-6 font-medium text-black">
+                            Phone number
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-500">
+                            (+91)9027436118
+                        </dd>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                         
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <dt class="text-lg leading-6 font-medium text-black">
+                            Email
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-500">
+                            roohmalik434@gmail.com <br/>
+                            khushnumamalik123@gmail.com
+                        </dd>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                          
+                        <img className=' h-7 w-7 ' src='https://i.pinimg.com/474x/4c/87/d1/4c87d1c257a7b9cc3f28f4c98c5a7686.jpg' />
+
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <dt class="text-lg leading-6 font-medium text-black">
+                            LinkdIn
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-500">
+                            Khushnuma Malik
+                        </dd>
+                    </div>
+                </div>
+            </dl>
+        </div>
     </div>
 </div>
-</div> 
 
     </div>
   )
