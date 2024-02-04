@@ -36,9 +36,9 @@ const Hero = () => {
         <div class="justify-center flex-1 max-w-6xl py-0 mx-auto lg:py-6 md:px-6">
             <div class="flex flex-wrap ">
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                    <div class="relative lg:max-w-md rounded-full justify-center p-5 ">
+                    <div class="relative lg:max-w-md rounded-full justify-center ">
                         <img className=''src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-qCKcaljtDpiKwL0vHGIdKhcEKHZJgltafjmCISwtFna_RGBTI-fEtICoEIZ47pwsI-q8XxRqYzLlfmfPGb-86Yq_juYtBwF5RLinvwqd1LQUPLFx3cZQusAKjsyVARnfrE1rqarK1i_vxoQFhm9YgDWMXdNcR2BmJBju1Tjk-pv47ih02ZjafLOUuI4/s320/B612_20240204_171444_230.jpg "
-                            class="relative z-10 object-cover w-full rounded h-96"/>
+                            class="relative z-10 object-cover w-full rounded h-96 p-20"/>
                       
                     </div>
                 </div>
