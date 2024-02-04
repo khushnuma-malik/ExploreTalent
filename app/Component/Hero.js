@@ -38,7 +38,7 @@ const Hero = () => {
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                     <div class="relative lg:max-w-md rounded-full justify-center ">
                         <img className=''src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-qCKcaljtDpiKwL0vHGIdKhcEKHZJgltafjmCISwtFna_RGBTI-fEtICoEIZ47pwsI-q8XxRqYzLlfmfPGb-86Yq_juYtBwF5RLinvwqd1LQUPLFx3cZQusAKjsyVARnfrE1rqarK1i_vxoQFhm9YgDWMXdNcR2BmJBju1Tjk-pv47ih02ZjafLOUuI4/s320/B612_20240204_171444_230.jpg "
-                            class="relative z-5 object-cover w-full rounded h-96 "/>
+                            class="relative z-5 object-cover w-full rounded h-96 pt-5 "/>
                       
                     </div>
                 </div>
