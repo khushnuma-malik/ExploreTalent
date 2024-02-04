@@ -37,7 +37,7 @@ const Hero = () => {
             <div class="flex flex-wrap ">
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                     <div class="relative lg:max-w-md rounded-full justify-center ">
-                        <img className=''src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8RjM0bsBsGKDhkScuC-7TqOTNP1CyrOMhODZjZBe6TOEselQii8T2EM1BpzrHgzKHDNQia7EOn2UKePWO2RkQ7BVE1zAz3MmPydOx-bz8X-LKkeSxz8ahy-mF1l8wuBVq5zm0jJF_E9mk5e8Q59QVi_V0xY3TybQJXe9lofhve-8XeWyOd_ytSGHV-gc/s320/IMG_20230730_174415_857.jpg" alt="aboutimage"
+                        <img className=''src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-qCKcaljtDpiKwL0vHGIdKhcEKHZJgltafjmCISwtFna_RGBTI-fEtICoEIZ47pwsI-q8XxRqYzLlfmfPGb-86Yq_juYtBwF5RLinvwqd1LQUPLFx3cZQusAKjsyVARnfrE1rqarK1i_vxoQFhm9YgDWMXdNcR2BmJBju1Tjk-pv47ih02ZjafLOUuI4/s320/B612_20240204_171444_230.jpg "
                             class="relative z-10 object-cover w-full rounded h-96"/>
                       
                     </div>
