@@ -52,8 +52,7 @@ const Hero = () => {
 
                     <p className='font-bold text-slate-800 text-lg'>Who Im? </p>
                     <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                    My name is Khushnuma, and I reside in Uttar Pradesh. I completed my Bachelors degree from CCS University, Meerut, in 2019. I received my high school and intermediate education from a Hindi medium school in Baghpat.
-
+                   
 <p className='font-bold text-slate-800 text-lg'>Education: </p>
 
 Bachelors Degree from CCS University, Meerut (2019)
