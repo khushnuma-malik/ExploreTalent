@@ -55,7 +55,7 @@ const Hero = () => {
                    
 <p className='font-bold text-slate-800 text-lg'>Education: </p>
 
-Bachelors Degree from CCS University, Meerut (2019)
+Bachelors Degree from CCS University, Meerut 
 High School and Intermediate from a Hindi medium school in Baghpat
 <p className='font-bold text-slate-800 text-lg'>Professional Experience: </p>
 I have 1.5 years of experience in web designing. I am proficient in the following technologies:
